@@ -1,0 +1,34 @@
+##gff-version	3.2.1
+##sequence-region	ctg123	1	1497228
+ctg123	.	gene	1000	9000	.	+	.	ID=gene00001;Name=EDEN
+ctg123	.	gene	5000	9000	.	+	.	ID=gene00002;Name=ADAM
+ctg123	.	gene	10000	8000	.	+	.	ID=gene00003;Name=BADA
+ctg123	.	TF_binding_site	1000	1012	.	+	.	ID=tfbs00001;Parent=gene00001
+ctg123	.	mRNA	1050	9000	.	+	.	ID=mRNA00001;Parent=gene00001;Name=EDEN.1
+ctg123	.	mRNA	1050	9000	.	+	.	ID=mRNA00002;Parent=gene00001;Name=EDEN.2
+ctg123	.	mRNA	1300	9000	.	+	.	ID=mRNA00003;Parent=gene00001;Name=EDEN.3
+ctg123	.	mRNA	5100	8500	.	+	.	ID=mRNA00004;Parent=gene00002;Name=ADAM.1
+ctg123	.	mRNA	6000	9000	.	+	.	ID=mRNA00005;Parent=gene00002;Name=ADAM.2
+ctg123	.	mRNA	8000	10000	.	+	.	ID=mRNA00006;Parent=gene00003;Name=BADA
+ctg123	.	CDS	1201	1500	.	+	0	ID=cds00001;Parent=mRNA00001;Name=edenprotein.1
+ctg123	.	CDS	3000	3902	.	+	0	ID=cds00001;Parent=mRNA00001;Name=edenprotein.1
+ctg123	.	CDS	5000	5500	.	+	0	ID=cds00001;Parent=mRNA00001;Name=edenprotein.1
+ctg123	.	CDS	7000	7600	.	+	0	ID=cds00001;Parent=mRNA00001;Name=edenprotein.1
+ctg123	.	CDS	1201	1500	.	+	0	ID=cds00002;Parent=mRNA00002;Name=edenprotein.2
+ctg123	.	CDS	5000	5500	.	+	0	ID=cds00002;Parent=mRNA00002;Name=edenprotein.2
+ctg123	.	CDS	7000	7600	.	+	0	ID=cds00002;Parent=mRNA00002;Name=edenprotein.2
+ctg123	.	CDS	3301	3902	.	+	0	ID=cds00003;Parent=mRNA00003;Name=edenprotein.3
+ctg123	.	CDS	5000	5500	.	+	1	ID=cds00003;Parent=mRNA00003;Name=edenprotein.3
+ctg123	.	CDS	7000	7600	.	+	1	ID=cds00003;Parent=mRNA00003;Name=edenprotein.3
+ctg123	.	CDS	3391	3902	.	+	0	ID=cds00004;Parent=mRNA00003;Name=edenprotein.4
+ctg123	.	CDS	5000	5500	.	+	1	ID=cds00004;Parent=mRNA00003;Name=edenprotein.4
+ctg123	.	CDS	7000	7600	.	+	1	ID=cds00004;Parent=mRNA00003;Name=edenprotein.4
+ctg123	.	CDS	6000	7600	.	+	1	ID=cds00005;Parent=mRNA00004;Name=adamprotein.1
+ctg123	.	CDS	7000	7600	.	+	1	ID=cds00005;Parent=mRNA00004;Name=adamprotein.1
+ctg123	.	CDS	5300	8000	.	+	1	ID=cds00006;Parent=mRNA00004;Name=adamprotein.2
+ctg123	.	CDS	6300	8000	.	+	1	ID=cds00007;Parent=mRNA00005;Name=adamprotein.3
+ctg123	.	CDS	8300	9000	.	+	1	ID=cds00007;Parent=mRNA00005;Name=adamprotein.3
+ctg123	.	CDS	8000	8010	.	+	1	ID=cds00008;Parent=mRNA00006;Name=badaprotein
+ctg123	.	CDS	8050	8200	.	+	1	ID=cds00008;Parent=mRNA00006;Name=badaprotein
+ctg123	.	CDS	8900	9500	.	+	1	ID=cds00008;Parent=mRNA00006;Name=badaprotein
+ctg123	.	CDS	9400	10000	.	+	1	ID=cds00008;Parent=mRNA00006;Name=badaprotein

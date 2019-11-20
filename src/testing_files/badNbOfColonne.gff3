@@ -1,0 +1,260 @@
+##gff-version 3
+##sequence-region   Chromosome 1 4641652
+#!genome-build European Nucleotide Archive ASM584v2
+#!genome-version ASM584v2
+#!genome-date 2014-08
+#!genome-build-accession GCA_000005845.2
+#!genebuild-last-updated 2014-08
+Chromosome	European Nucleotide Archive	chromosome	1	51606	.	.	.	ID=chromosome:Chromosome;Alias=U00096.3;Is_circular=true
+###
+Chromosome	ena	gene	190	255	ID=gene:b0001;Name=thrL;biotype=protein_coding;description=thr operon leader peptide;gene_id=b0001;logic_name=ena
+Chromosome	ena	mRNA	190	255	.	+		ID=transcript:AAC73112;Parent=gene:b0001;Name=thrL-1;biotype=protein_coding;transcript_id=AAC73112
+Chromosome	ena	exon	190	255	.	+	.	Parent=transcript:AAC73112;Name=AAC73112-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73112-1;rank=1
+Chromosome	ena	CDS	190	255	.	+	0	ID=CDS:AAC73112;Parent=transcript:AAC73112;protein_id=AAC73112
+###
+Chromosome	ena	gene	337	2799	.	+	.ID=gene:b0002;Name=thrA;biotype=protein_coding;description=Bifunctional aspartokinase/homoserine dehydrogenase 1;gene_id=b0002;logic_name=ena
+Chromosome	ena	mRNA	337	2799	.	+	.	ID=transcript:AAC73113;Parent=gene:b0002;Name=thrA-1;biotype=protein_coding;transcript_id=AAC73113
+Chromosome	exon	337	2799	.	+	.	Parent=transcript:AAC73113;Name=AAC73113-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73113-1;rank=1
+Chromosome	ena	CDS	337	2799	.	+	0	ID=CDS:AAC73113;Parent=transcript:AAC73113;protein_id=AAC73113
+###
+Chromosome	ena	gene
+Chromosome	ena	mRNA	2801	3733	.	+	.	ID=transcript:AAC73114;Parent=gene:b0003;Name=thrB-1;biotype=protein_coding;transcript_id=AAC73114
+Chromosome	ena	exon	2801	3733	.	+	.	Parent=transcript:AAC73114;Name=AAC73114-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73114-1;rank=1
+Chromosome	ena	CDS	2801	3733	.	+	0	ID=CDS:AAC73114;Parent=transcript:AAC73114;protein_id=AAC73114
+###
+Chromosome	ena	gene	3734	5020.	+	.	ID=gene:b0004;Name=thrC;biotype=protein_coding;description=L-threonine synthase;gene_id=b0004;logic_name=ena
+Chromosome	ena	mRNA	3734	5020	.	+	.	ID=transcript:AAC73115;Parent=gene:b0004;Name=thrC-1;biotype=protein_coding;transcript_id=AAC73115
+Chromosome	ena	exon	3734	5020	.	+	.	Parent=transcript:AAC73115;Name=AAC73115-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73115-1;rank=1
+Chromosome	ena	CDS	3734	5020	.	+	0	ID=CDS:AAC73115;Parent=transcript:AAC73115;protein_id=AAC73115
+###
+Chromosome	ena	gene	5234	5530	.	+	.	ID=gene:b0005;Name=yaaX;biotype=protein_coding;description=DUF2502 family putative periplasmic protein;gene_id=b0005;logic_name=ena
+Chromosome	ena	mRNA	5234	5530	.	+	.	ID=transcript:AAC73116;Parent=gene:b0005;Name=yaaX-1;biotype=protein_coding;transcript_id=AAC73116
+Chromosome	ena	exon	5234	5530	.	+	.	Parent=transcript:AAC73116;Name=AAC73116-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73116-1;rank=1
+Chromosome	ena	CDS	5234	5530	.	+	0	ID=CDS:AAC73116;Parent=transcript:AAC73116;protein_id=AAC73116
+###
+Chromosome	ena	gene	5683	6459	.	-	.	ID=gene:b0006;Name=yaaA;biotype=protein_coding;description=peroxide resistance protein%2C lowers intracellular iron;gene_id=b0006;logic_name=ena
+Chromosome	ena	mRNA	5683	6459	.	-	.	ID=transcript:AAC73117;Parent=gene:b0006;Name=yaaA-1;biotype=protein_coding;transcript_id=AAC73117
+Chromosome	ena	exon	5683	6459	.	-	.	Parent=transcript:AAC73117;Name=AAC73117-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73117-1;rank=1
+Chromosome	ena	CDS	5683	6459	.	-	0	ID=CDS:AAC73117;Parent=transcript:AAC73117;protein_id=AAC73117
+###
+Chromosome	ena	gene	6529	7959	.	-	.	ID=gene:b0007;Name=yaaJ;biotype=protein_coding;description=putative transporter;gene_id=b0007;logic_name=ena
+Chromosome	ena	mRNA	6529	7959-	.	ID=transcript:AAC73118;Parent=gene:b0007;Name=yaaJ-1;biotype=protein_coding;transcript_id=AAC73118
+Chromosome	ena	exon	6529	7959	.	-	.	Parent=transcript:AAC73118;Name=AAC73118-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73118-1;rank=1
+Chromosome	ena	CDS	6529	7959	.	-	0	ID=CDS:AAC73118;Parent=transcript:AAC73118;protein_id=AAC73118
+###
+Chromosome	ena	gene	8238	9191	.	+	.
+Chromosome	ena	mRNA	8238	9191	.	+	.	ID=transcript:AAC73119;Parent=gene:b0008;Name=talB-1;biotype=protein_coding;transcript_id=AAC73119
+Chromosome	ena	exon	8238	9191	.	+	.	Parent=transcript:AAC73119;Name=AAC73119-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73119-1;rank=1
+Chromosome	ena	CDS	8238	9191	.	+	0	ID=CDS:AAC73119;Parent=transcript:AAC73119;protein_id=AAC73119
+###
+Chromosome	ena	gene	9306	9893	.	+	.	ID=gene:b0009;Name=mog;biotype=protein_coding;description=molybdochelatase incorporating molybdenum into molybdopterin;gene_id=b0009;logic_name=ena
+Chromosome	ena	mRNA	9306	9893	.	+	.	ID=transcript:AAC73120;Parent=gene:b0009;Name=mog-1;biotype=protein_coding;transcript_id=AAC73120
+Chromosome	ena	exon	9306	9893	.	+	.	Parent=transcript:AAC73120;Name=AAC73120-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73120-1;rank=1
+Chromosome	ena	CDS	9306	9893	.	+	0	ID=CDS:AAC73120;Parent=transcript:AAC73120;protein_id=AAC73120
+###
+Chromosome	ena	gene	9928	10494	.	-	.	ID=gene:b0010;Name=satP;biotype=protein_coding;description=succinate-acetate transporter;gene_id=b0010;logic_name=ena
+Chromosome	ena	mRNA	9928	10494	.	-	.	ID=transcript:AAC73121;Parent=gene:b0010;Name=satP-1;biotype=protein_coding;transcript_id=AAC73121
+Chromosome	ena	exon	9928	10494	.	-	.	Parent=transcript:AAC73121;Name=AAC73121-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73121-1;rank=1
+Chromosome	ena	CDS	9928	10494	.	-	0	ID=CDS:AAC73121;Parent=transcript:AAC73121;protein_id=AAC73121
+###
+Chromosome	ena	gene	10643	11356	.	-	.	ID=gene:b0011;Name=yaaW;biotype=protein_coding;description=UPF0174 family protein;gene_id=b0011;logic_name=ena
+Chromosome	ena	mRNA	10643	11356	.	-	.	ID=transcript:AAC73122;Parent=gene:b0011;Name=yaaW-1;biotype=protein_coding;transcript_id=AAC73122
+Chromosome	ena	exon	10643	11356	.	-	.	Parent=transcript:AAC73122;Name=AAC73122-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73122-1;rank=1
+Chromosome	ena	CDS	10643	11356	.	-	0	ID=CDS:AAC73122;Parent=transcript:AAC73122;protein_id=AAC73122
+###
+Chromosome	ena	gene	11382	11786	.	-	.	ID=gene:b0013;Name=yaaI;biotype=protein_coding;description=UPF0412 family protein;gene_id=b0013;logic_name=ena
+Chromosome	ena	mRNA	11382	11786	.	-	.	ID=transcript:AAC73124;Parent=gene:b0013;Name=yaaI-1;biotype=protein_coding;transcript_id=AAC73124
+Chromosome	ena	exon	11382	11786	.	-	.	Parent=transcript:AAC73124;Name=AAC73124-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73124-1;rank=1
+Chromosome	
+###
+Chromosome	ena	gene	12163	14079	.	+	.	ID=gene:b0014;Name=dnaK;biotype=protein_coding;description=chaperone Hsp70%2C with co-chaperone DnaJ;gene_id=b0014;logic_name=ena
+Chromosome	ena	mRNA	12163	14079	.	+	.	ID=transcript:AAC73125;Parent=gene:b0014;Name=dnaK-1;biotype=protein_coding;transcript_id=AAC73125
+Chromosome	ena	exon	12163	14079	.	+	.	Parent=transcript:AAC73125;Name=AAC73125-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73125-1;rank=1
+Chromosome	ena	CDS	12163	14079	.	+	0	ID=CDS:AAC73125;Parent=transcript:AAC73125;protein_id=AAC73125
+###
+Chromosome	ena	gene	14168	15298	.	+	.	ID=gene:b0015;Name=dnaJ;biotype=protein_coding;description=chaperone Hsp40%2C DnaK co-chaperone;gene_id=b0015;logic_name=ena
+Chromosome	ena	mRNA	14168	15298	.	+	.	ID=transcript:AAC73126;Parent=gene:b0015;Name=dnaJ-1;biotype=protein_coding;transcript_id=AAC73126
+Chromosome	ena	exon	14168	15298	.	+	.	Parent=transcript:AAC73126;Name=AAC73126-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73126-1;rank=1
+Chromosome	ena	CDS	14168	15298	.	+	0	ID=CDS:AAC73126;Parent=transcript:AAC73126;protein_id=AAC73126
+###
+Chromosome	ena_mobile_element	biological_region	15387	16731	.	+	.	external_name=U00096.3:mobile_element:15387..16731;logic_name=ena_mobile_element
+Chromosome	ena	gene	15445	16557	.	+	.	ID=gene:b0016;Name=insL1;biotype=protein_coding;description=IS186 transposase;gene_id=b0016;logic_name=ena
+Chromosome	ena	mRNA	15445	16557	.	+	.	ID=transcript:AAC73127;Parent=gene:b0016;Name=insL1-1;biotype=protein_coding;transcript_id=AAC73127
+Chromosome	ena	exon	15445	16557	.	+	.	Parent=transcript:AAC73127;Name=AAC73127-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73127-1;rank=1
+Chromosome	ena	CDS	15445	16557	.	+	0	ID=CDS:AAC73127;Parent=transcript:AAC73127;protein_id=AAC73127
+###
+Chromosome	ena	gene	16751	16903	.	-	.	ID=gene:b4412;Name=hokC;biotype=protein_coding;description=toxic membrane protein%2C small;gene_id=b4412;logic_name=ena
+Chromosome	ena	mRNA	16751	16903	.	-	.	ID=transcript:AAT48122;Parent=gene:b4412;Name=hokC-1;biotype=protein_coding;transcript_id=AAT48122
+Chromosome	ena	exon	16751	16903	.	-	.	Parent=transcript:AAT48122;Name=AAT48122-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAT48122-1;rank=1
+Chromosome	ena	CDS	16751	16903	.	-	0	ID=CDS:AAT48122;Parent=transcript:AAT48122;protein_id=AAT48122
+###
+Chromosome	ena	gene	16751	16960	.	-	.	ID=gene:b0018;Name=mokC;biotype=protein_coding;description=regulatory protein for HokC%2C overlaps CDS of hokC;gene_id=b0018;logic_name=ena
+Chromosome	ena	mRNA	16751	16960	.	-	.	ID=transcript:AAC73129;Parent=gene:b0018;Name=mokC-1;biotype=protein_coding;transcript_id=AAC73129
+Chromosome	ena	exon	16751	16960	.	-	.	Parent=transcript:AAC73129;Name=AAC73129-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73129-1;rank=1
+Chromosome	ena	CDS	16751	16960	.	-	0	ID=CDS:AAC73129;Parent=transcript:AAC73129;protein_id=AAC73129
+###
+Chromosome	ena	ncRNA_gene	16952	17006	.	+	.	ID=gene:b4413;Name=sokC;biotype=ncRNA;gene_id=b4413;logic_name=ena_rna
+Chromosome	ena	transcript	16952	17006	.	+	.	ID=transcript:EBT00001514645;Parent=gene:b4413;Name=sokC;biotype=ncRNA;transcript_id=EBT00001514645
+Chromosome	ena	exon	16952	17006	.	+	.	Parent=transcript:EBT00001514645;Name=EBE00001515038;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=EBE00001515038;rank=1
+###
+Chromosome	ena	gene	17489	18655	.	+	.	ID=gene:b0019;Name=nhaA;biotype=protein_coding;description=sodium-proton antiporter;gene_id=b0019;logic_name=ena
+Chromosome	ena	mRNA	17489	18655	.	+	.	ID=transcript:AAC73130;Parent=gene:b0019;Name=nhaA-1;biotype=protein_coding;transcript_id=AAC73130
+Chromosome	ena	exon	17489	18655	.	+	.	Parent=transcript:AAC73130;Name=AAC73130-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73130-1;rank=1
+Chromosome	ena	CDS	17489	18655	.	+	0	ID=CDS:AAC73130;Parent=transcript:AAC73130;protein_id=AAC73130
+###
+Chromosome	ena	gene	18715	19620	.	+	.	ID=gene:b0020;Name=nhaR;biotype=protein_coding;description=transcriptional activator of nhaA;gene_id=b0020;logic_name=ena
+Chromosome	ena	mRNA	18715	19620	.	+	.	ID=transcript:AAC73131;Parent=gene:b0020;Name=nhaR-1;biotype=protein_coding;transcript_id=AAC73131
+Chromosome	ena	exon	18715	19620	.	+	.	Parent=transcript:AAC73131;Name=AAC73131-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73131-1;rank=1
+Chromosome	ena	CDS	18715	19620	.	+	0	ID=CDS:AAC73131;Parent=transcript:AAC73131;protein_id=AAC73131
+###
+Chromosome	ena_mobile_element	biological_region	19796	20563	.	-	.	external_name=U00096.3:mobile_element:complement(19796..20563);logic_name=ena_mobile_element
+Chromosome	ena	gene	19811	20314	.	-	.	ID=gene:b0021;Name=insB1;biotype=protein_coding;description=IS1 transposase B;gene_id=b0021;logic_name=ena
+Chromosome	ena	mRNA	19811	20314	.	-	.	ID=transcript:AAC73132;Parent=gene:b0021;Name=insB1-1;biotype=protein_coding;transcript_id=AAC73132
+Chromosome	ena	exon	19811	20314	.	-	.	Parent=transcript:AAC73132;Name=AAC73132-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73132-1;rank=1
+Chromosome	ena	CDS	19811	20314	.	-	0	ID=CDS:AAC73132;Parent=transcript:AAC73132;protein_id=AAC73132
+###
+Chromosome	ena	gene	20233	20508	.	-	.	ID=gene:b0022;Name=insA;biotype=protein_coding;description=IS1 repressor TnpA;gene_id=b0022;logic_name=ena
+Chromosome	ena	mRNA	20233	20508	.	-	.	ID=transcript:AAC73133;Parent=gene:b0022;Name=insA-1;biotype=protein_coding;transcript_id=AAC73133
+Chromosome	ena	exon	20233	20508	.	-	.	Parent=transcript:AAC73133;Name=AAC73133-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73133-1;rank=1
+Chromosome	ena	CDS	20233	20508	.	-	0	ID=CDS:AAC73133;Parent=transcript:AAC73133;protein_id=AAC73133
+###
+Chromosome	ena	gene	20815	21078	.	-	.	ID=gene:b0023;Name=rpsT;biotype=protein_coding;description=30S ribosomal subunit protein S20;gene_id=b0023;logic_name=ena
+Chromosome	ena	mRNA	20815	21078	.	-	.	ID=transcript:AAC73134;Parent=gene:b0023;Name=rpsT-1;biotype=protein_coding;transcript_id=AAC73134
+Chromosome	ena	exon	20815	21078	.	-	.	Parent=transcript:AAC73134;Name=AAC73134-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73134-1;rank=1
+Chromosome	ena	CDS	20815	21078	.	-	0	ID=CDS:AAC73134;Parent=transcript:AAC73134;protein_id=AAC73134
+###
+Chromosome	ena	gene	21181	21399	.	+	.	ID=gene:b0024;Name=yaaY;biotype=protein_coding;description=uncharacterized protein;gene_id=b0024;logic_name=ena
+Chromosome	ena	mRNA	21181	21399	.	+	.	ID=transcript:AAC73135;Parent=gene:b0024;Name=yaaY-1;biotype=protein_coding;transcript_id=AAC73135
+Chromosome	ena	exon	21181	21399	.	+	.	Parent=transcript:AAC73135;Name=AAC73135-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73135-1;rank=1
+Chromosome	ena	CDS	21181	21399	.	+	0	ID=CDS:AAC73135;Parent=transcript:AAC73135;protein_id=AAC73135
+###
+Chromosome	ena	gene	21407	22348	.	+	.	ID=gene:b0025;Name=ribF;biotype=protein_coding;description=bifunctional riboflavin kinase/FAD synthetase;gene_id=b0025;logic_name=ena
+Chromosome	ena	mRNA	21407	22348	.	+	.	ID=transcript:AAC73136;Parent=gene:b0025;Name=ribF-1;biotype=protein_coding;transcript_id=AAC73136
+Chromosome	ena	exon	21407	22348	.	+	.	Parent=transcript:AAC73136;Name=AAC73136-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73136-1;rank=1
+Chromosome	ena	CDS	21407	22348	.	+	0	ID=CDS:AAC73136;Parent=transcript:AAC73136;protein_id=AAC73136
+###
+Chromosome	ena	gene	22391	25207	.	+	.	ID=gene:b0026;Name=ileS;biotype=protein_coding;description=isoleucyl-tRNA synthetase;gene_id=b0026;logic_name=ena
+Chromosome	ena	mRNA	22391	25207	.	+	.	ID=transcript:AAC73137;Parent=gene:b0026;Name=ileS-1;biotype=protein_coding;transcript_id=AAC73137
+Chromosome	ena	exon	22391	25207	.	+	.	Parent=transcript:AAC73137;Name=AAC73137-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73137-1;rank=1
+Chromosome	ena	CDS	22391	25207	.	+	0	ID=CDS:AAC73137;Parent=transcript:AAC73137;protein_id=AAC73137
+###
+Chromosome	ena	gene	25207	25701	.	+	.	ID=gene:b0027;Name=lspA;biotype=protein_coding;description=prolipoprotein signal peptidase (signal peptidase II);gene_id=b0027;logic_name=ena
+Chromosome	ena	mRNA	25207	25701	.	+	.	ID=transcript:AAC73138;Parent=gene:b0027;Name=lspA-1;biotype=protein_coding;transcript_id=AAC73138
+Chromosome	ena	exon	25207	25701	.	+	.	Parent=transcript:AAC73138;Name=AAC73138-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73138-1;rank=1
+Chromosome	ena	CDS	25207	25701	.	+	0	ID=CDS:AAC73138;Parent=transcript:AAC73138;protein_id=AAC73138
+###
+Chromosome	ena	gene	25826	26275	.	+	.	ID=gene:b0028;Name=fkpB;biotype=protein_coding;description=FKBP-type peptidyl-prolyl cis-trans isomerase (rotamase);gene_id=b0028;logic_name=ena
+Chromosome	ena	mRNA	25826	26275	.	+	.	ID=transcript:AAC73139;Parent=gene:b0028;Name=fkpB-1;biotype=protein_coding;transcript_id=AAC73139
+Chromosome	ena	exon	25826	26275	.	+	.	Parent=transcript:AAC73139;Name=AAC73139-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73139-1;rank=1
+Chromosome	ena	CDS	25826	26275	.	+	0	ID=CDS:AAC73139;Parent=transcript:AAC73139;protein_id=AAC73139
+###
+Chromosome	ena	gene	26277	27227	.	+	.	ID=gene:b0029;Name=ispH;biotype=protein_coding;description=4-hydroxy-3-methylbut-2-enyl diphosphate reductase%2C 4Fe-4S protein;gene_id=b0029;logic_name=ena
+Chromosome	ena	mRNA	26277	27227	.	+	.	ID=transcript:AAC73140;Parent=gene:b0029;Name=ispH-1;biotype=protein_coding;transcript_id=AAC73140
+Chromosome	ena	exon	26277	27227	.	+	.	Parent=transcript:AAC73140;Name=AAC73140-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73140-1;rank=1
+Chromosome	ena	CDS	26277	27227	.	+	0	ID=CDS:AAC73140;Parent=transcript:AAC73140;protein_id=AAC73140
+###
+Chromosome	ena	gene	27293	28207	.	+	.	ID=gene:b0030;Name=rihC;biotype=protein_coding;description=ribonucleoside hydrolase 3;gene_id=b0030;logic_name=ena
+Chromosome	ena	mRNA	27293	28207	.	+	.	ID=transcript:AAC73141;Parent=gene:b0030;Name=rihC-1;biotype=protein_coding;transcript_id=AAC73141
+Chromosome	ena	exon	27293	28207	.	+	.	Parent=transcript:AAC73141;Name=AAC73141-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73141-1;rank=1
+Chromosome	ena	CDS	27293	28207	.	+	0	ID=CDS:AAC73141;Parent=transcript:AAC73141;protein_id=AAC73141
+###
+Chromosome	ena	gene	28374	29195	.	+	.	ID=gene:b0031;Name=dapB;biotype=protein_coding;description=dihydrodipicolinate reductase;gene_id=b0031;logic_name=ena
+Chromosome	ena	mRNA	28374	29195	.	+	.	ID=transcript:AAC73142;Parent=gene:b0031;Name=dapB-1;biotype=protein_coding;transcript_id=AAC73142
+Chromosome	ena	exon	28374	29195	.	+	.	Parent=transcript:AAC73142;Name=AAC73142-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73142-1;rank=1
+Chromosome	ena	CDS	28374	29195	.	+	0	ID=CDS:AAC73142;Parent=transcript:AAC73142;protein_id=AAC73142
+###
+Chromosome	ena	gene	29651	30799	.	+	.	ID=gene:b0032;Name=carA;biotype=protein_coding;description=carbamoyl phosphate synthetase small subunit%2C glutamine amidotransferase;gene_id=b0032;logic_name=ena
+Chromosome	ena	mRNA	29651	30799	.	+	.	ID=transcript:AAC73143;Parent=gene:b0032;Name=carA-1;biotype=protein_coding;transcript_id=AAC73143
+Chromosome	ena	exon	29651	30799	.	+	.	Parent=transcript:AAC73143;Name=AAC73143-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73143-1;rank=1
+Chromosome	ena	CDS	29651	30799	.	+	0	ID=CDS:AAC73143;Parent=transcript:AAC73143;protein_id=AAC73143
+###
+Chromosome	ena	gene	30817	34038	.	+	.	ID=gene:b0033;Name=carB;biotype=protein_coding;description=carbamoyl-phosphate synthase large subunit;gene_id=b0033;logic_name=ena
+Chromosome	ena	mRNA	30817	34038	.	+	.	ID=transcript:AAC73144;Parent=gene:b0033;Name=carB-1;biotype=protein_coding;transcript_id=AAC73144
+Chromosome	ena	exon	30817	34038	.	+	.	Parent=transcript:AAC73144;Name=AAC73144-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73144-1;rank=1
+Chromosome	ena	CDS	30817	34038	.	+	0	ID=CDS:AAC73144;Parent=transcript:AAC73144;protein_id=AAC73144
+###
+Chromosome	ena	gene	34300	34695	.	+	.	ID=gene:b0034;Name=caiF;biotype=protein_coding;description=cai operon transcriptional activator;gene_id=b0034;logic_name=ena
+Chromosome	ena	mRNA	34300	34695	.	+	.	ID=transcript:AAC73145;Parent=gene:b0034;Name=caiF-1;biotype=protein_coding;transcript_id=AAC73145
+Chromosome	ena	exon	34300	34695	.	+	.	Parent=transcript:AAC73145;Name=AAC73145-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73145-1;rank=1
+Chromosome	ena	CDS	34300	34695	.	+	0	ID=CDS:AAC73145;Parent=transcript:AAC73145;protein_id=AAC73145
+###
+Chromosome	ena	gene	34781	35371	.	-	.	ID=gene:b0035;Name=caiE;biotype=protein_coding;description=stimulator of CaiD and CaiB enzyme activities;gene_id=b0035;logic_name=ena
+Chromosome	ena	mRNA	34781	35371	.	-	.	ID=transcript:AAC73146;Parent=gene:b0035;Name=caiE-1;biotype=protein_coding;transcript_id=AAC73146
+Chromosome	ena	exon	34781	35371	.	-	.	Parent=transcript:AAC73146;Name=AAC73146-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73146-1;rank=1
+Chromosome	ena	CDS	34781	35371	.	-	0	ID=CDS:AAC73146;Parent=transcript:AAC73146;protein_id=AAC73146
+###
+Chromosome	ena	gene	35377	36162	.	-	.	ID=gene:b0036;Name=caiD;biotype=protein_coding;description=carnitinyl-CoA dehydratase;gene_id=b0036;logic_name=ena
+Chromosome	ena	mRNA	35377	36162	.	-	.	ID=transcript:AAC73147;Parent=gene:b0036;Name=caiD-1;biotype=protein_coding;transcript_id=AAC73147
+Chromosome	ena	exon	35377	36162	.	-	.	Parent=transcript:AAC73147;Name=AAC73147-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73147-1;rank=1
+Chromosome	ena	CDS	35377	36162	.	-	0	ID=CDS:AAC73147;Parent=transcript:AAC73147;protein_id=AAC73147
+###
+Chromosome	ena	gene	36271	37824	.	-	.	ID=gene:b0037;Name=caiC;biotype=protein_coding;description=putative crotonobetaine/carnitine-CoA ligase;gene_id=b0037;logic_name=ena
+Chromosome	ena	mRNA	36271	37824	.	-	.	ID=transcript:AAC73148;Parent=gene:b0037;Name=caiC-1;biotype=protein_coding;transcript_id=AAC73148
+Chromosome	ena	exon	36271	37824	.	-	.	Parent=transcript:AAC73148;Name=AAC73148-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73148-1;rank=1
+Chromosome	ena	CDS	36271	37824	.	-	0	ID=CDS:AAC73148;Parent=transcript:AAC73148;protein_id=AAC73148
+###
+Chromosome	ena	gene	37898	39115	.	-	.	ID=gene:b0038;Name=caiB;biotype=protein_coding;description=crotonobetainyl CoA:carnitine CoA transferase;gene_id=b0038;logic_name=ena
+Chromosome	ena	mRNA	37898	39115	.	-	.	ID=transcript:AAC73149;Parent=gene:b0038;Name=caiB-1;biotype=protein_coding;transcript_id=AAC73149
+Chromosome	ena	exon	37898	39115	.	-	.	Parent=transcript:AAC73149;Name=AAC73149-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73149-1;rank=1
+Chromosome	ena	CDS	37898	39115	.	-	0	ID=CDS:AAC73149;Parent=transcript:AAC73149;protein_id=AAC73149
+###
+Chromosome	ena	gene	39244	40386	.	-	.	ID=gene:b0039;Name=caiA;biotype=protein_coding;description=crotonobetaine reductase subunit II%2C FAD-binding;gene_id=b0039;logic_name=ena
+Chromosome	ena	mRNA	39244	40386	.	-	.	ID=transcript:AAC73150;Parent=gene:b0039;Name=caiA-1;biotype=protein_coding;transcript_id=AAC73150
+Chromosome	ena	exon	39244	40386	.	-	.	Parent=transcript:AAC73150;Name=AAC73150-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73150-1;rank=1
+Chromosome	ena	CDS	39244	40386	.	-	0	ID=CDS:AAC73150;Parent=transcript:AAC73150;protein_id=AAC73150
+###
+Chromosome	ena	gene	40417	41931	.	-	.	ID=gene:b0040;Name=caiT;biotype=protein_coding;description=putative transporter;gene_id=b0040;logic_name=ena
+Chromosome	ena	mRNA	40417	41931	.	-	.	ID=transcript:AAC73151;Parent=gene:b0040;Name=caiT-1;biotype=protein_coding;transcript_id=AAC73151
+Chromosome	ena	exon	40417	41931	.	-	.	Parent=transcript:AAC73151;Name=AAC73151-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73151-1;rank=1
+Chromosome	ena	CDS	40417	41931	.	-	0	ID=CDS:AAC73151;Parent=transcript:AAC73151;protein_id=AAC73151
+###
+Chromosome	ena	gene	42403	43173	.	+	.	ID=gene:b0041;Name=fixA;biotype=protein_coding;description=anaerobic carnitine reduction putative electron transfer flavoprotein subunit;gene_id=b0041;logic_name=ena
+Chromosome	ena	mRNA	42403	43173	.	+	.	ID=transcript:AAC73152;Parent=gene:b0041;Name=fixA-1;biotype=protein_coding;transcript_id=AAC73152
+Chromosome	ena	exon	42403	43173	.	+	.	Parent=transcript:AAC73152;Name=AAC73152-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73152-1;rank=1
+Chromosome	ena	CDS	42403	43173	.	+	0	ID=CDS:AAC73152;Parent=transcript:AAC73152;protein_id=AAC73152
+###
+Chromosome	ena	gene	43188	44129	.	+	.	ID=gene:b0042;Name=fixB;biotype=protein_coding;description=putative electron transfer flavoprotein%2C NAD/FAD-binding domain and ETFP adenine nucleotide-binding domain-like protein;gene_id=b0042;logic_name=ena
+Chromosome	ena	mRNA	43188	44129	.	+	.	ID=transcript:AAC73153;Parent=gene:b0042;Name=fixB-1;biotype=protein_coding;transcript_id=AAC73153
+Chromosome	ena	exon	43188	44129	.	+	.	Parent=transcript:AAC73153;Name=AAC73153-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73153-1;rank=1
+Chromosome	ena	CDS	43188	44129	.	+	0	ID=CDS:AAC73153;Parent=transcript:AAC73153;protein_id=AAC73153
+###
+Chromosome	ena	gene	44180	45466	.	+	.	ID=gene:b0043;Name=fixC;biotype=protein_coding;description=putative oxidoreductase;gene_id=b0043;logic_name=ena
+Chromosome	ena	mRNA	44180	45466	.	+	.	ID=transcript:AAC73154;Parent=gene:b0043;Name=fixC-1;biotype=protein_coding;transcript_id=AAC73154
+Chromosome	ena	exon	44180	45466	.	+	.	Parent=transcript:AAC73154;Name=AAC73154-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73154-1;rank=1
+Chromosome	ena	CDS	44180	45466	.	+	0	ID=CDS:AAC73154;Parent=transcript:AAC73154;protein_id=AAC73154
+###
+Chromosome	ena	gene	45463	45750	.	+	.	ID=gene:b0044;Name=fixX;biotype=protein_coding;description=putative 4Fe-4S ferredoxin-type protein;gene_id=b0044;logic_name=ena
+Chromosome	ena	mRNA	45463	45750	.	+	.	ID=transcript:AAC73155;Parent=gene:b0044;Name=fixX-1;biotype=protein_coding;transcript_id=AAC73155
+Chromosome	ena	exon	45463	45750	.	+	.	Parent=transcript:AAC73155;Name=AAC73155-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73155-1;rank=1
+Chromosome	ena	CDS	45463	45750	.	+	0	ID=CDS:AAC73155;Parent=transcript:AAC73155;protein_id=AAC73155
+###
+Chromosome	ena	gene	45807	47138	.	+	.	ID=gene:b0045;Name=yaaU;biotype=protein_coding;description=putative MFS sugar transporter%3B membrane protein;gene_id=b0045;logic_name=ena
+Chromosome	ena	mRNA	45807	47138	.	+	.	ID=transcript:AAC73156;Parent=gene:b0045;Name=yaaU-1;biotype=protein_coding;transcript_id=AAC73156
+Chromosome	ena	exon	45807	47138	.	+	.	Parent=transcript:AAC73156;Name=AAC73156-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73156-1;rank=1
+Chromosome	ena	CDS	45807	47138	.	+	0	ID=CDS:AAC73156;Parent=transcript:AAC73156;protein_id=AAC73156
+###
+Chromosome	ena	gene	47246	47776	.	+	.	ID=gene:b0046;Name=kefF;biotype=protein_coding;description=potassium-efflux system ancillary protein for KefC%2C glutathione-regulated%3B quinone oxidoreductase%2C FMN-dependent;gene_id=b0046;logic_name=ena
+Chromosome	ena	mRNA	47246	47776	.	+	.	ID=transcript:AAC73157;Parent=gene:b0046;Name=kefF-1;biotype=protein_coding;transcript_id=AAC73157
+Chromosome	ena	exon	47246	47776	.	+	.	Parent=transcript:AAC73157;Name=AAC73157-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73157-1;rank=1
+Chromosome	ena	CDS	47246	47776	.	+	0	ID=CDS:AAC73157;Parent=transcript:AAC73157;protein_id=AAC73157
+###
+Chromosome	ena	gene	47769	49631	.	+	.	ID=gene:b0047;Name=kefC;biotype=protein_coding;description=potassium:proton antiporter;gene_id=b0047;logic_name=ena
+Chromosome	ena	mRNA	47769	49631	.	+	.	ID=transcript:AAC73158;Parent=gene:b0047;Name=kefC-1;biotype=protein_coding;transcript_id=AAC73158
+Chromosome	ena	exon	47769	49631	.	+	.	Parent=transcript:AAC73158;Name=AAC73158-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73158-1;rank=1
+Chromosome	ena	CDS	47769	49631	.	+	0	ID=CDS:AAC73158;Parent=transcript:AAC73158;protein_id=AAC73158
+###
+Chromosome	ena	gene	49823	50302	.	+	.	ID=gene:b0048;Name=folA;biotype=protein_coding;description=dihydrofolate reductase;gene_id=b0048;logic_name=ena
+Chromosome	ena	mRNA	49823	50302	.	+	.	ID=transcript:AAC73159;Parent=gene:b0048;Name=folA-1;biotype=protein_coding;transcript_id=AAC73159
+Chromosome	ena	exon	49823	50302	.	+	.	Parent=transcript:AAC73159;Name=AAC73159-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73159-1;rank=1
+Chromosome	ena	CDS	49823	50302	.	+	0	ID=CDS:AAC73159;Parent=transcript:AAC73159;protein_id=AAC73159
+###
+Chromosome	ena	gene	50380	51222	.	-	.	ID=gene:b0049;Name=apaH;biotype=protein_coding;description=diadenosine tetraphosphatase;gene_id=b0049;logic_name=ena
+Chromosome	ena	mRNA	50380	51222	.	-	.	ID=transcript:AAC73160;Parent=gene:b0049;Name=apaH-1;biotype=protein_coding;transcript_id=AAC73160
+Chromosome	ena	exon	50380	51222	.	-	.	Parent=transcript:AAC73160;Name=AAC73160-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73160-1;rank=1
+Chromosome	ena	CDS	50380	51222	.	-	0	ID=CDS:AAC73160;Parent=transcript:AAC73160;protein_id=AAC73160
+###
+Chromosome	ena	gene	51229	51606	.	-	.	ID=gene:b0050;Name=apaG;biotype=protein_coding;description=protein associated with Co2+ and Mg2+ efflux;gene_id=b0050;logic_name=ena
+Chromosome	ena	mRNA	51229	51606	.	-	.	ID=transcript:AAC73161;Parent=gene:b0050;Name=apaG-1;biotype=protein_coding;transcript_id=AAC73161
+Chromosome	ena	exon	51229	51606	.	-	.	Parent=transcript:AAC73161;Name=AAC73161-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=AAC73161-1;rank=1
+Chromosome	ena	CDS	51229	51606	.	-	0	ID=CDS:AAC73161;Parent=transcript:AAC73161;protein_id=AAC73161
+###
