@@ -32,6 +32,6 @@ A project done in M1, this a gene browser for gff3 files, tested with java versi
       the sequences whose description match the pattern will be highlighted in yellow 
 
 
-### uml diagram
+### UML Diagram
 ![Screenshot](UML.png "UML Diagram")
 
